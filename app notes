@@ -1,0 +1,14 @@
+Map improvements
+    Marker clustering
+        Zooming out should adjust the max distance setting when calculating cluster centroids
+
+Location Service
+    Failure
+        If the navigation api fails for whatever reason, we should return an error code that will let us determine where the error came from while determining location.
+        We can then try to use Google's api instead.
+
+Smoother loading overlay
+    At the moment when we zoom/pan the server responds very quickly. This means that the loadig overlay flashes on the screen.
+
+Report Sighting
+    Entire thing needs to be designed and implemented!
